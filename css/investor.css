@@ -169,3 +169,6 @@ footer {
   }
 
 }
+.menu-items {
+  flex-wrap: wrap;
+}

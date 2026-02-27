@@ -1,0 +1,50 @@
+body {
+    background: #0f0f0f;
+    color: white;
+    font-family: Poppins, sans-serif;
+    margin: 0;
+}
+
+header {
+    background: #000;
+    padding: 20px;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.payment-container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-card {
+    background: #1f1f1f;
+    padding: 40px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+}
+
+.payment-card select {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 8px;
+    border: none;
+}
+
+.pay-btn {
+    width: 100%;
+    padding: 12px;
+    background: #ff5722;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}

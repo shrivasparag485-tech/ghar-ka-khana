@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0f0f0f;
+    color: white;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: #000;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a:hover {
+    color: #ff5722;
+}
+
+/* HERO */
+.ir-hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #1f1f1f, #111);
+}
+
+.ir-hero h1 {
+    font-size: 48px;
+    color: #ff5722;
+}
+
+.ir-hero p {
+    margin-top: 15px;
+    color: #ccc;
+}
+
+/* SECTIONS */
+section {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 30px;
+    color: #ff5722;
+}
+
+/* STATS */
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.stat-card {
+    background: #1f1f1f;
+    padding: 30px;
+    width: 200px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.stat-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(255,87,34,0.4);
+}
+
+.stat-card h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* REPORTS */
+.report-list {
+    max-width: 600px;
+    margin: auto;
+}
+
+.report-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f1f1f;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.report-item button {
+    padding: 8px 15px;
+    border: none;
+    background: #ff5722;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.report-item button:hover {
+    background: #ff784e;
+}
+
+/* CONTACT */
+.contact-ir p {
+    margin-top: 10px;
+    color: #ccc;
+}
+
+/* FOOTER */
+footer {
+    background: #000;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}

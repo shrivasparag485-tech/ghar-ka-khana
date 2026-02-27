@@ -151,3 +151,6 @@ header a {
   }
 
 }
+.menu-items {
+  flex-wrap: wrap;
+}

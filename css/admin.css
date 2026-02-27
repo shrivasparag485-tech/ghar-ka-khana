@@ -189,3 +189,6 @@ header {
   }
 
 }
+.menu-items {
+  flex-wrap: wrap;
+}

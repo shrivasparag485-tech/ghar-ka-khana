@@ -74,8 +74,43 @@ nav {
     border-radius: 8px;
     transition: 0.3s;
 }
+/* ================= MOBILE FIX ================= */
 
+@media (max-width: 768px) {
+
+  body {
+    padding: 10px;
+  }
+
+  /* Forms full width */
+  .auth-form {
+    width: 100% !important;
+  }
+
+  /* Cards stack vertically */
+  .menu-items {
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .card {
+    width: 100% !important;
+  }
+
+  /* Images responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Header text adjust */
+  .logo a {
+    font-size: 20px;
+  }
+
+}
 .action-btn:hover {
     background: #ff784e;
     transform: translateY(-3px);
+
 }

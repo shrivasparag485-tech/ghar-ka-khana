@@ -114,3 +114,6 @@ nav {
     transform: translateY(-3px);
 
 }
+.menu-items {
+  flex-wrap: wrap;
+}

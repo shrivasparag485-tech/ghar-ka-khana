@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Tracking | GHAR KA KHANA</title>
+    <link rel="stylesheet" href="css/tracking.css">
+</head>
+<body>
+<header>
+    <a href="menu.html" class="logo">← Back to Menu</a>
+    <span id="headerUser"></span>
+</header>
+<section class="tracking-container">
+
+    <h2>Order Tracking</h2>
+
+    <div class="status" id="statusText">
+        Preparing your food...
+    </div>
+
+    <div class="progress-bar">
+        <div class="progress" id="progress"></div>
+    </div>
+     <div id="ratingSection" style="display:none; margin-top:40px;">
+    <h3>Rate Your Experience</h3>
+
+    <div class="stars">
+        <span onclick="rate(1)">⭐</span>
+        <span onclick="rate(2)">⭐</span>
+        <span onclick="rate(3)">⭐</span>
+        <span onclick="rate(4)">⭐</span>
+        <span onclick="rate(5)">⭐</span>
+    </div>
+
+    <p id="ratingMessage"></p>
+</div>
+</section>
+
+<script src="js/tracking.js"></script>
+</body>
+</html>

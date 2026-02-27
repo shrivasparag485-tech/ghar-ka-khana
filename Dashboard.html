@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard | GHAR KA KHANA</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <a href="index.html">GHAR KA KHANA</a>
+    </div>
+
+    <nav>
+        <a href="menu.html">Menu</a>
+        <a href="cart.html">Cart</a>
+        <a href="admin.html">Admin Dashboard</a>
+        <button id="logoutBtn" class="logout-btn">Logout</button>
+    </nav>
+    <span id="headerUser"></span>
+</header>
+
+<section class="dashboard-container">
+
+    <div class="dashboard-card">
+        <h2 id="welcomeUser"></h2>
+        <p>Welcome to your account dashboard.</p>
+
+    </div>
+    <div id="orderHistory"></div>
+
+    <div class="dashboard-actions">
+        <a href="menu.html" class="action-btn">🍽 Order Food</a>
+        <a href="cart.html" class="action-btn">🛒 View Cart</a>
+    </div>
+    
+</section>
+
+<script src="js/auth.js"></script>
+</body>
+</html>

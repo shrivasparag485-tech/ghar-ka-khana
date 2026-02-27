@@ -86,6 +86,9 @@ header {
 .cart-container {
     padding: 40px;
 }
+.menu-items {
+  flex-wrap: wrap;
+}
 
 .order-btn {
     padding: 10px 20px;
@@ -164,3 +167,4 @@ header {
   }
 
 }
+

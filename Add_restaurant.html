@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Restaurant | GHAR KA KHANA</title>
+    <link rel="stylesheet" href="css/add-restaurant.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <h2>GHAR KA KHANA</h2>
+            </a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="investor.html">Investor</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+        <span id="headerUser"></span>
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1>Partner With Us</h1>
+        <p>Grow your business by joining GHAR KA KHANA</p>
+    </section>
+
+
+    <form id="restaurantForm">
+
+    <h2>Restaurant Registration</h2>
+
+    <div class="input-group">
+        <label>Restaurant Name</label>
+        <input type="text" id="restaurantName" required>
+    </div>
+
+    <div class="input-group">
+        <label>Owner Name</label>
+        <input type="text" required>
+    </div>
+
+    <div class="input-group">
+        <label>Email Address</label>
+        <input type="email" id="email" required>
+    </div>
+
+    <div class="input-group">
+        <label>Phone Number</label>
+        <input type="tel" id="phone" required>
+    </div>
+
+    <div class="input-group">
+        <label>GST Number</label>
+        <input type="text" placeholder="Enter GST Number">
+    </div>
+
+    <div class="input-group">
+        <label>FSSAI License (Upload PDF)</label>
+        <input type="file" accept=".pdf" required>
+    </div>
+
+    <div class="input-group">
+        <label>Restaurant Image</label>
+        <input type="file" id="imageUpload" accept="image/*">
+        <img id="previewImage" class="preview" />
+    </div>
+
+    <div class="input-group">
+        <label>Opening Hours</label>
+        <input type="text" placeholder="e.g. 10:00 AM - 11:00 PM">
+    </div>
+
+    <div class="input-group">
+        <label>Restaurant Address</label>
+        <textarea rows="3" required></textarea>
+    </div>
+
+    <div class="input-group">
+        <label>Cuisine Type</label>
+        <select required>
+            <option value="">Select Cuisine</option>
+            <option>North Indian</option>
+            <option>South Indian</option>
+            <option>Chinese</option>
+            <option>Fast Food</option>
+            <option>Bakery</option>
+        </select>
+    </div>
+
+    <button type="submit" class="submit-btn">Submit Application</button>
+
+    <div id="successMessage" class="success-message">
+        ✅ Application Submitted Successfully!
+    </div>
+
+</form>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 GHAR KA KHANA | All Rights Reserved</p>
+    </footer>
+
+
+    <script src="js/add-restaurant.js"></script>
+
+</body>
+</html>
